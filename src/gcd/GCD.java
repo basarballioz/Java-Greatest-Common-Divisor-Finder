@@ -23,5 +23,6 @@ public class GCD {
                     System.out.print("İkinci Sayı : ");
                     int ikinci_sayi = input.nextInt();
                     System.out.println("İki Sayının Ebobu : " + ebobbulma(birinci_sayi, ikinci_sayi));
+                    input.close();
            }
  }
